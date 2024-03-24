@@ -12,5 +12,5 @@ const reportSummary = new ReportSummary_1.ReportSummary(new WinsAnalysis_1.WinsA
 reportSummary.buildAndPrintReport(matchReader.matches);
 const htmlReportSummary = new ReportSummary_1.ReportSummary(new WinsAnalysis_1.WinsAnalysis("Tottenham"), new HtmlReport_1.HtmlReport());
 htmlReportSummary.buildAndPrintReport(matchReader.matches);
-// const winsAnalysisWithHtmlReport = ReportSummary.winsAnalysisWithHtmlReport("Man United");
-// console.log({ winsAnalysisWithHtmlReport });
+const winsAnalysisWithHtmlReport = ReportSummary_1.ReportSummary.winsAnalysisWithHtmlReport("Man United");
+console.log({ winsAnalysisWithHtmlReport });
