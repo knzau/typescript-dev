@@ -26,6 +26,6 @@ package-lock.json
 # Ignore yarn.lock for Yarn
 yarn.lock
 
-# Ignore Parcel files
+#Ignore parcels cache folder
 .parcel-cache/
 dist/
