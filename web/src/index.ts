@@ -12,7 +12,6 @@ users.on("change", () => {
 	if (root) {
 		const userList = new UserList(root, users);
 		userList.render();
-		console.log({ userList });
 	}
 });
 

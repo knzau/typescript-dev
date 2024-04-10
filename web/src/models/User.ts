@@ -1,5 +1,4 @@
 // Purpose: Define the User class and its properties and methods.
-import { AxiosResponse } from "axios";
 import { Attributes } from "./Attributes";
 import { Events } from "./Events";
 import { ApiSync } from "./ApiSync";
